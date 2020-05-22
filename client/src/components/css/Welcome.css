@@ -1,0 +1,44 @@
+.banner-img {
+  opacity: 0.7;
+  background-color: rgba(248, 246, 246);
+}
+
+.title-wrapper {
+  margin-top: 13%;
+  padding: 20px;
+  background-color: rgba(150, 150, 150, 0.6);
+}
+
+.slash {
+  color: black;
+}
+
+.monsieur {
+  font-size: 55px;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: -2px;
+  height: 100px;
+}
+
+.footer-copyright {
+  background-color: #fff;
+  color: black;
+  padding: 20px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .monsieur {
+    font-size: 32px;
+    margin-bottom: -45px;
+  }
+
+  .footer-copyright {
+    font-size: 12px;
+  }
+}
