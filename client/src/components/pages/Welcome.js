@@ -1,8 +1,8 @@
 import React from 'react';
 import '../css/Welcome.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
-import ScrollAnimation from 'react-animate-on-scroll';
 import Typing from 'react-typing-animation';
+import Header from '../utils/Header';
 
 class Welcome extends React.Component {
   componentDidMount() {
@@ -13,7 +13,8 @@ class Welcome extends React.Component {
   render() {
     return (
       <div>
-        <div class="slider">
+        <div class="slider fullscreen">
+          <Header />
           <ul class="slides">
             <li>
               <img

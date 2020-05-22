@@ -1,0 +1,22 @@
+.Contact h1 {
+  font-size: 45px;
+  margin-bottom: 35px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+.box-contact {
+  margin-top: 60px;
+}
+
+.phone-mark {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+.Contact img {
+  width: 350px;
+  border-radius: 5px;
+}

@@ -1,0 +1,39 @@
+.About h1 {
+  margin-left: 9px;
+  font-size: 45px;
+  margin-bottom: 35px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+.box-about {
+  margin-top: 60px;
+}
+
+.mark {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.about-text-wrapper {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+.signature {
+  font-family: myFirstFont;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-text-wrapper {
+    width: 90%;
+  }
+}
