@@ -1,6 +1,5 @@
 import React from 'react';
 import '../css/About.css';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 class About extends React.Component {
   render() {

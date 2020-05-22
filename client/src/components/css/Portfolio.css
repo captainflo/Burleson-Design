@@ -1,30 +1,36 @@
-.Curated h1 {
+.Portfolio h1 {
   font-size: 45px;
   margin-bottom: 35px;
   letter-spacing: 1px;
   font-weight: lighter;
 }
 
-.box-curated {
+.box-Portfolio {
   margin-top: 60px;
 }
 
-.Curated p {
+.Portfolio p {
   letter-spacing: 3px;
   font-weight: lighter;
 }
 
-.cover {
+.cover-portfolio {
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
   width: 100%;
-  height: 400px;
+  height: 150px;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 600px) {
-  .cover {
+  .Portfolio h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+  .cover-portfolio {
     display: block;
     margin-left: auto;
     margin-right: auto;

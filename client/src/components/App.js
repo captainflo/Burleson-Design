@@ -8,6 +8,7 @@ import Header from './utils/Header';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Curated from './pages/Curated';
+import Portfolio from './pages/Portfolio';
 
 class App extends React.Component {
   componentDidMount() {
@@ -25,6 +26,7 @@ class App extends React.Component {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/about" component={About} />
           <Route exact path="/curated" component={Curated} />
+          <Route exact path="/portfolio/:id" component={Portfolio} />
         </BrowserRouter>
       </div>
     );
