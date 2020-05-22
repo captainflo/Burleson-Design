@@ -1,5 +1,5 @@
 {
-  "name": "monsieur-inked",
+  "name": "burleson-design",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/captainflo/monsieur-inked.git"
+    "url": "git+https://github.com/captainflo/burleson-design.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/captainflo/monsieur-inked/issues"
+    "url": "https://github.com/captainflo/burleson-design/issues"
   },
-  "homepage": "https://github.com/captainflo/monsieur-inked#readme",
+  "homepage": "https://github.com/captainflo/burleson-design#readme",
   "dependencies": {
     "concurrently": "^4.1.1",
     "express": "^4.17.1",
