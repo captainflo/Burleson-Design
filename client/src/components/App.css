@@ -1,0 +1,21 @@
+/* Font */
+@font-face {
+  font-family: myFirstFont;
+  src: url(./fonts/AndreaBellarosa.ttf) format('truetype');
+}
+
+body {
+  font-family: 'minion-pro', serif;
+  background: #000000; /* fallback for old browsers */
+  color: #fff;
+}
+
+/* Footer */
+.page-footer {
+  border-top: 1px solid #fff;
+  background: #fff !important; /* fallback for old browsers */
+  color: #000000 !important;
+}
+
+@media only screen and (max-width: 600px) {
+}

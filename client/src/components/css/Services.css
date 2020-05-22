@@ -1,0 +1,21 @@
+.Services {
+  padding-top: 10px;
+  color: black;
+  font-family: myFirstFont;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.Services hr {
+  display: block;
+  width: 250px;
+  border: 1px solid black;
+  margin-bottom: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Services {
+    line-height: 2;
+    font-size: 20px;
+  }
+}
