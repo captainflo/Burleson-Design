@@ -31,7 +31,7 @@ class Curated extends React.Component {
   renderListofPorfolio = () => {
     return this.state.portfolio.map((item) => {
       return (
-        <div className="col m6 s12" key={item.id}>
+        <div className="col m6 s12 containerImage" key={item.id}>
           <Link to={`/portfolio/${item.id}`}>
             <img
               className="cover"

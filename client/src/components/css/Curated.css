@@ -14,21 +14,21 @@
   font-weight: lighter;
 }
 
+.containerImage {
+  height: auto;
+}
+
 .cover {
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
   width: 100%;
-  height: 400px;
+  height: 300px;
 }
 
 @media only screen and (max-width: 768px) {
   .cover {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
     width: 100%;
     height: 200px;
   }
